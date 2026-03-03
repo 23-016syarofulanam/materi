@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Apa itu data mining ? &#8212; My sample book</title>
+    <title>&lt;no title&gt; &#8212; My sample book</title>
   
   
   
@@ -59,10 +59,11 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Tugas_2';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="tugas%201.html" />
+    <link rel="next" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="tugas%201.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -125,8 +126,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -145,7 +144,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -176,8 +175,8 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     Apa itu data mining ?
                 </a>
             </li>
@@ -255,7 +254,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FTugas_2.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -285,7 +284,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/Tugas_2.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -295,7 +294,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -356,7 +355,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -367,11 +368,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Apa itu data mining ?</h1>
+    <h1><no title></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -381,13 +390,69 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <p>Syaroful Anam - 230411100016</p>
-<section class="tex2jax_ignore mathjax_ignore" id="apa-itu-data-mining">
-<h1>Apa itu data mining ?<a class="headerlink" href="#apa-itu-data-mining" title="Link to this heading">#</a></h1>
-<p>Data mining atau penggalian data adalah salah satu proses penting yang dapat membantu perusahaan dalam menentukan strategi pemasaran dan penjualan yang tepat. Dengan data mining, perusahaan bisa memahami perilaku konsumen secara mendalam dan dapat meningkatkan customer experience.Fungsi Data Mining Data mining memiliki beragam fungsi yang digunakan untuk mengolah data mentah menjadi wawasan yang bermanfaat. Fungsi-fungsi ini mendasari berbagai proses analisis, prediksi, dan otomatisasi dalam dunia bisnis, teknologi, maupun riset.</p>
-<div class="toctree-wrapper compound">
+  <p><strong>penjelasan tentang mengukur Jarak dengan tipe data campuran</strong></p>
+<p>Mengukur jarak untuk tipe data campuran dilakukan karena dalam satu database sering kali terdapat berbagai jenis atribut sekaligus, seperti Nominal, Symmetric Binary, Asymmetric Binary, Numeric, dan Ordinal</p>
+<p><strong>penjelasan secara mekanisme</strong></p>
+<p>.Untuk mendapatkan satu nilai jarak (dissimilarity) dari berbagai tipe data, kita menggunakan metode pembobotan. Rumus umumnya menggabungkan kontribusi dari setiap atribut f untuk pasangan objek i dan j</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.datasets</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_iris</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.spatial.distance</span><span class="w"> </span><span class="kn">import</span> <span class="n">pdist</span><span class="p">,</span> <span class="n">squareform</span>
+
+<span class="c1"># 1. Load Data Iris</span>
+<span class="n">iris</span> <span class="o">=</span> <span class="n">load_iris</span><span class="p">()</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">feature_names</span><span class="p">)</span>
+
+<span class="c1"># Mengambil 5 sampel pertama untuk visualisasi</span>
+<span class="n">subset_data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="c1"># 2. Perhitungan Jarak (Minkowski Distance)</span>
+<span class="c1"># a. Manhattan Distance (h=1)</span>
+<span class="n">dist_manhattan</span> <span class="o">=</span> <span class="n">squareform</span><span class="p">(</span><span class="n">pdist</span><span class="p">(</span><span class="n">subset_data</span><span class="p">,</span> <span class="n">metric</span><span class="o">=</span><span class="s1">&#39;cityblock&#39;</span><span class="p">))</span>
+
+<span class="c1"># b. Euclidean Distance (h=2)</span>
+<span class="n">dist_euclidean</span> <span class="o">=</span> <span class="n">squareform</span><span class="p">(</span><span class="n">pdist</span><span class="p">(</span><span class="n">subset_data</span><span class="p">,</span> <span class="n">metric</span><span class="o">=</span><span class="s1">&#39;euclidean&#39;</span><span class="p">))</span>
+
+<span class="c1"># c. Supremum Distance (h=inf)</span>
+<span class="n">dist_supremum</span> <span class="o">=</span> <span class="n">squareform</span><span class="p">(</span><span class="n">pdist</span><span class="p">(</span><span class="n">subset_data</span><span class="p">,</span> <span class="n">metric</span><span class="o">=</span><span class="s1">&#39;chebyshev&#39;</span><span class="p">))</span>
+
+<span class="c1"># 3. Tampilkan Hasil Matriks Dissimilarity (Euclidean)</span>
+<span class="n">dist_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">dist_euclidean</span><span class="p">,</span>
+                       <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="sa">f</span><span class="s1">&#39;Obj </span><span class="si">{</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)],</span>
+                       <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="sa">f</span><span class="s1">&#39;Obj </span><span class="si">{</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Data Matrix (5 baris pertama):&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">subset_data</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Dissimilarity Matrix (Euclidean):&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dist_df</span><span class="p">)</span>
+</pre></div>
 </div>
-</section>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.datasets</span><span class="w"> </span><span class="kn">import</span> <span class="n">load_iris</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>penjelasan code</strong></p>
+<ol class="arabic">
+<li><p>Persiapan Data (Load Data) Kode dimulai dengan memuat dataset Iris menggunakan sklearn datasets Atribut Numerik: Dataset ini terdiri dari 4 dimensi (sepal length, sepal width, petal length, petal width)</p>
+<p>Data Matrix: Baris data diubah menjadi struktur matriks (Pandas DataFrame) agar bisa dihitung jarak antar barisnya (objek).</p>
+</li>
+<li><p>Perhitungan jarak minkowski Distance, jarak untuk data numerik dihitung menggunakan rumus Minkowski Distance. Di dalam kode, kita menggunakan fungsi pdist (Pairwise Distance) dari pustaka scipy:Manhattan Distance (<span class="math notranslate nohighlight">\(h=1\)</span>): Menggunakan parameter metric=’cityblock’. Ini menghitung jumlah selisih absolut antar atribut (L1 norm).Euclidean Distance (<span class="math notranslate nohighlight">\(h=2\)</span>): Menggunakan parameter metric=’euclidean’. Ini adalah ukuran jarak garis lurus standar (L2 norm) Supremum Distance (<span class="math notranslate nohighlight">\(h \to \infty\)</span>): Menggunakan parameter metric=’chebyshev’. Ini hanya mengambil selisih nilai maksimum di antara semua atribut yang ada dalam satu vektor.</p></li>
+<li><p>Pembentukan dissimilarity matrixHasil dari perhitungan jarak tersebut biasanya berupa array satu dimensi. Untuk mengubahnya menjadi tampilan tabel yang bisa dibaca melakukan langkah berikut:
+squareform: Fungsi ini mengubah array jarak menjadi matriks Segitiga yang simetris.Sifat Matriks:nilai diagonal selalu 0 karena jarak objek ke dirinya sendiri adalah nol (<span class="math notranslate nohighlight">\(d(i,i)=0\)</span>).Matriks ini bersifat Simetri, artinya jarak dari objek 1 ke 2 sama dengan jarak dari objek 2 ke 1 (<span class="math notranslate nohighlight">\(d(i,j) = d(j,i)\)</span>).</p></li>
+<li><p>Interpretasi hasil setelah kode dijalankan, Anda akan mendapatkan tabel (dataFrame) yang menunjukkan nilai numerik perbedaan antar bunga Iris:nilai rendah: menunjukkan dua objek sangat mirip (similarity tinggi).nilai tinggi: menunjukkan dua objek memiliki perbedaan besar (dissimilarity tinggi).</p></li>
+</ol>
 
     <script type="text/x-thebe-config">
     {
@@ -419,12 +484,21 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="right-next"
+    <a class="left-prev"
        href="tugas%201.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="markdown-notebooks.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">Notebooks with MyST Markdown</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -434,6 +508,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
