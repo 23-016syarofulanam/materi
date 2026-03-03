@@ -1,11 +1,6 @@
-# Welcome to your Jupyter Book
+Syaroful Anam - 230411100016
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
 
-Check out the content pages bundled with this sample book to see more.
+# Apa itu data mining ?
 
-```{tableofcontents}
-```
+Data mining atau penggalian data adalah salah satu proses penting yang dapat membantu perusahaan dalam menentukan strategi pemasaran dan penjualan yang tepat. Dengan data mining, perusahaan bisa memahami perilaku konsumen secara mendalam dan dapat meningkatkan customer experience.Fungsi Data Mining Data mining memiliki beragam fungsi yang digunakan untuk mengolah data mentah menjadi wawasan yang bermanfaat. Fungsi-fungsi ini mendasari berbagai proses analisis, prediksi, dan otomatisasi dalam dunia bisnis, teknologi, maupun riset.
